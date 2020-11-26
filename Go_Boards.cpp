@@ -9,7 +9,7 @@ int evaboard[MAX][MAX];
 int N = 0;
 int answer = 0;
 
-bool chess(int x, int y)//提交测试11.26.18
+bool chess(int x, int y)//提交测试11.26.18.44
 {
     if (x > N || y > N || x < 1 || y < 1) //越界格
         return 1;
