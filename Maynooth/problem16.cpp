@@ -9,7 +9,7 @@ int A[LEN] = {1, 2, 3, 0, 4, 5, 6, 0, 0, 0, 0, 7, 8}; //定义存放二叉树用
 bool LAC(int n, int x, int y)
 {
     bool left = false, right = false; //用以确认当前节点的左右子树是否包含x和y
-    int flag = false;
+    int flag = 0;
     if (n < LEN)
     {
         left = LAC(2 * n + 1, x, y);
